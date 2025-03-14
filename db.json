@@ -7,8 +7,8 @@
   "news": [
     {
       "id": "1718587545001",
-      "title": "Next.js 14 버전 출시",
-      "content": "Next.js 14 버전이 출시되었습니다. 주요 변경사항으로는 Server Actions 안정화, Partial Prerendering 베타 출시 등이 있습니다.",
+      "title": "Next.js 15 버전 출시",
+      "content": "Next.js 15 버전이 출시되었습니다. 주요 변경사항으로는 Server Actions 안정화, Partial Prerendering 베타 출시 등이 있습니다.",
       "author": "Vercel Team",
       "category": "기술",
       "createdAt": 1718587545001

@@ -13,7 +13,9 @@ interface BlogData {
 type Tags = [string, string, string];
 
 const BlogsPage = async () => {
-  const data = await fetch("http://localhost:4000/blogs");
+  const data = await fetch("http://localhost:4000/blogs", {
+    cache: "no-store",
+  });
   const blogs: BlogData[] = await data.json();
   return (
     <div className="blog-container">
