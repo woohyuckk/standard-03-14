@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <nav className="navbar">
-        <ul className="nav-list flex text-2xl ">
+        <ul className="nav-list flex text-2xl justify-between font-bold border-b-2 h-20 items-center">
           <li className="nav-item">
             <Link href="/" className="nav-link">
               Home(SSG)
