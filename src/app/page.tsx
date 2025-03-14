@@ -20,7 +20,7 @@ export default async function Home() {
           </p>
           <p>변경되지 않는 정적인 페이지에 적절한 렌더링 방식입니다.</p>
         </div>
-        <div className="intro-descriptions">
+        <div className="intro-descriptions border-2 border-red-500">
           <p className="description">{introData.description1}</p>
           <p className="description">{introData.description2}</p>
           <p className="description">{introData.description3}</p>

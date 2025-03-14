@@ -1,17 +1,19 @@
-
-interface NewsType = {
+interface NewsType {
   id: string;
   title: string;
-  
+  content: string;
+  author: string;
+  category: string;
+  createdAt: number;
 }
 
 const NewsPage = async () => {
   const data = await fetch("http://localhost:4000/news", {
     next: {
-      revalidate: 86400,
+      revalidate: 5,
     },
   });
-  const news = await data.json();
+  const news: NewsType[] = await data.json();
   return (
     <div className="news-container">
       <h2 className="news-header">최신 기술 뉴스</h2>
